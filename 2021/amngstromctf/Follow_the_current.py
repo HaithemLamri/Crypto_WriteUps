@@ -14,7 +14,7 @@ def keystream(key):
 
 
 
-with open("/home/hlpc/PycharmProjects/cryptohack/amngstromctf/enc","rb") as f:
+with open("/enc","rb") as f:
     cipher = f.read()
 for key in keys:
 	kk=b''
